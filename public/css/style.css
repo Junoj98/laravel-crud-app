@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.card{
+    max-width: 50em;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #f9f5f5;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.6) ;
+    
+}
+    
+.card img{
+    width: 40%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
+
+.card-body{
+    flex-grow: 1;
+    padding: 1em;
+}
+
+.card-title{
+    margin-bottom: 0.5em;
+}
+
+.card h5{
+    text-align: center;
+}
+
+.navbar .bi {
+font-size: 2.5rem; 
+margin-left: 5px; 
+}
+
+.bi-browser-edge {
+background: linear-gradient(to right, #da2b04, #e4c203); 
+-webkit-background-clip: text; 
+background-clip: text;
+-webkit-text-fill-color: transparent; 
+}
+
+.navbar .navbar-brand{
+    font-size: 2rem; 
+}
